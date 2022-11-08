@@ -1,15 +1,17 @@
 import React from 'react';
-import {SafeAreaView, StatusBar, Text, View} from 'react-native';
+import {Button, View, Text} from 'react-native';
+import styles from './styles';
 
-const DebitCardScreen = () => {
+function DebitCardScreen({navigation}: {navigation: any}) {
   return (
-    <SafeAreaView>
-      <StatusBar />
-      <View>
-        <Text>DebitCardScreen</Text>
-      </View>
-    </SafeAreaView>
+    <View style={styles.container}>
+      <Text>Home Screen</Text>
+      <Button
+        title="SpendLimiScreen"
+        onPress={() => navigation.navigate('SpendLimitScreen')}
+      />
+    </View>
   );
-};
+}
 
 export default DebitCardScreen;
