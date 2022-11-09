@@ -31,8 +31,11 @@ function DebitCardScreen({navigation}: {navigation: any}) {
         </View>
       </View>
 
-      <ScrollView style={styles.scrollContain}>
+      <View style={{zIndex: 200, width: '100%'}}>
         <CardComponent />
+      </View>
+
+      <ScrollView style={styles.scrollContain}>
         <OptionCompoment
           icon={Images.insightIcon}
           title={'Top-up account'}

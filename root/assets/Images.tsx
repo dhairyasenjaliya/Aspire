@@ -11,4 +11,7 @@ export const Images = {
   speedUpIcon: require(`${allImages}Transfer-2.png`),
   aspireIcon: require(`${allImages}AspireLogo.png`),
   visaIcon: require(`${allImages}VisaLogo.png`),  
+
+  eyeIcon: require(`${allImages}eye.png`),
+  eyeCloseIcon: require(`${allImages}eyeClose.png`),  
 };

@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import {Images} from '../../../assets/Images';
 import styles from './styles';
@@ -23,6 +23,16 @@ function CardComponent() {
         style={styles.visaContain}
         resizeMode={'contain'}
       />
+      <TouchableOpacity style={styles.hideNumber}>
+        <View style={styles.hideComponent}>
+          <FastImage
+            source={Images.eyeIcon}
+            style={styles.eyeLogo}
+            resizeMode={'contain'}
+          />
+          <Text style={styles.hideCardText}>Hide card number</Text>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 }
