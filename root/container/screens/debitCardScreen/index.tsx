@@ -4,6 +4,7 @@ import FastImage from 'react-native-fast-image';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Images} from '../../../assets/Images';
 import CardComponent from '../../../stories/components/cardComponent';
+import OptionCompoment from '../../../stories/components/optionComponent';
 import styles from './styles';
 
 function DebitCardScreen({navigation}: {navigation: any}) {
@@ -30,14 +31,38 @@ function DebitCardScreen({navigation}: {navigation: any}) {
         </View>
       </View>
 
-      <ScrollView
-        style={{
-          flex: 1,
-          backgroundColor: 'white',
-          borderTopLeftRadius: 24,
-          borderTopRightRadius: 24,
-        }}>
+      <ScrollView style={styles.scrollContain}>
         <CardComponent />
+        <OptionCompoment
+          icon={Images.insightIcon}
+          title={'Top-up account'}
+          subTitle={'Deposit money to your account to use with card'}
+          isToggle
+        />
+        <OptionCompoment
+          icon={Images.indicatorIcon}
+          title={'Weekly spending limit'}
+          subTitle={'You haven’t set any spending limit on card'}
+          isToggle
+        />
+        <OptionCompoment
+          icon={Images.natureIcon}
+          title={'Freeze card'}
+          subTitle={'Your debit card is currently active'}
+          isToggle
+        />
+        <OptionCompoment
+          icon={Images.cardIcon}
+          title={'Get a new card'}
+          subTitle={'This deactivates your current debit card'}
+          isToggle
+        />
+        <OptionCompoment
+          icon={Images.transferIcon}
+          title={'Deactivated cards'}
+          subTitle={'Your previously deactivated cards'}
+          isToggle
+        />
       </ScrollView>
     </SafeAreaView>
   );

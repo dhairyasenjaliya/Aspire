@@ -7,7 +7,7 @@ function MoneyplaceholderComponent(_props: any) {
 
   return (
     <TouchableOpacity onPress={press} style={styles.container}>
-      <Text style={styles.amountText}>{`S$ `+amount}</Text>
+      <Text style={styles.amountText}>{'S$ ' + amount}</Text>
     </TouchableOpacity>
   );
 }

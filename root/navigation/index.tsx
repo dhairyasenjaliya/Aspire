@@ -15,9 +15,8 @@ function Navigator() {
         screenOptions={{
           headerShown: false,
         }}>
-        <Stack.Screen name="SpendLimitScreen" component={SpendLimitScreen} />
         <Stack.Screen name="DebitCardScreen" component={DebitCardScreen} />
-       
+        <Stack.Screen name="SpendLimitScreen" component={SpendLimitScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

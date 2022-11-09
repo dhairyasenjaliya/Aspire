@@ -59,4 +59,9 @@ export default StyleSheet.create({
     alignItems: 'center',
     marginTop: 10,
   },
+  scrollContain: {
+    backgroundColor: Colors.white,
+    borderTopLeftRadius: 24,
+    borderTopRightRadius: 24,
+  },
 });
