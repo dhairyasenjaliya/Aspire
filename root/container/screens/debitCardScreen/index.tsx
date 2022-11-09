@@ -1,8 +1,9 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Images} from '../../../assets/Images';
+import CardComponent from '../../../stories/components/cardComponent';
 import styles from './styles';
 
 function DebitCardScreen({navigation}: {navigation: any}) {
@@ -28,6 +29,16 @@ function DebitCardScreen({navigation}: {navigation: any}) {
           <Text style={styles.amountStyle}>3,000</Text>
         </View>
       </View>
+
+      <ScrollView
+        style={{
+          flex: 1,
+          backgroundColor: 'white',
+          borderTopLeftRadius: 24,
+          borderTopRightRadius: 24,
+        }}>
+        <CardComponent />
+      </ScrollView>
     </SafeAreaView>
   );
 }
