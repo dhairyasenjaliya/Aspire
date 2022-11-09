@@ -1,8 +1,10 @@
 import React from 'react';
-import {View, Text, ScrollView, TouchableOpacity} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
 import FastImage from 'react-native-fast-image';
 import {SafeAreaView} from 'react-native-safe-area-context';
 import {Images} from '../../../assets/Images';
+import ButtonComponent from '../../../stories/components/buttonComponent';
+import MoneyplaceholderComponent from '../../../stories/components/moneyPlacholderComponent';
 import {Colors} from '../../../utils/colors';
 import styles from './styles';
 
@@ -50,6 +52,18 @@ function SpendLimitScreen({navigation}: {navigation: any}) {
         <Text style={styles.calanderWeekText}>
           Here weekly means the last 7 days - not the calendar week
         </Text>
+
+        <View style={styles.moneyPlaceHolder}>
+          <MoneyplaceholderComponent amount={5000} />
+          <MoneyplaceholderComponent amount={10000} />
+          <MoneyplaceholderComponent amount={20000} />
+        </View>
+
+        <ButtonComponent
+          buttonStyle={styles.saveButton}
+          textStyle={styles.saveText}
+          title={'Save'}
+        />
       </View>
     </SafeAreaView>
   );

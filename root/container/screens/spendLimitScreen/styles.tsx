@@ -84,4 +84,25 @@ export default StyleSheet.create({
     marginTop: 12,
     marginBottom: 32,
   },
+
+  saveButton: {
+    height: 56,
+    width: 300,
+    backgroundColor: Colors.brandGreen,
+    borderRadius: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    alignSelf: 'center',
+    position: 'absolute',
+    bottom: 24,
+  },
+  saveText: {
+    fontSize: FontSize.large,
+    fontFamily: Fonts.demiBoldAvenir,
+    color: Colors.white,
+  },
+  moneyPlaceHolder: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
 });
