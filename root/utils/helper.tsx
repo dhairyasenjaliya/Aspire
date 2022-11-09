@@ -7,5 +7,6 @@ export const FontSize = {
   customThirteen: 13,
   medium: 14,
   large: 16,
+  headerSizeSmall: 22,
   headerSize: 24,
 };

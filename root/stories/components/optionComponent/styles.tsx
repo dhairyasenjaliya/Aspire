@@ -34,4 +34,7 @@ export default StyleSheet.create({
   switchSize: {
     transform: [{scaleX: 0.7}, {scaleY: 0.7}],
   },
+  flexRow: {
+    flexDirection: 'row',
+  },
 });

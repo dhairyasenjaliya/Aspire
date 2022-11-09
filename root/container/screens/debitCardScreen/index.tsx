@@ -42,6 +42,9 @@ function DebitCardScreen({navigation}: {navigation: any}) {
           icon={Images.speedUpIcon}
           title={'Weekly spending limit'}
           subTitle={'You haven’t set any spending limit on card'}
+          onPress={() => {
+            navigation.navigate('SpendLimitScreen');
+          }}
           isToggle
         />
         <OptionCompoment

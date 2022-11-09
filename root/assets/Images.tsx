@@ -9,5 +9,6 @@ export const Images = {
   cardIcon: require(`${allImages}Transfer-1.png`),
   transferIcon: require(`${allImages}Transfer.png`),
   speedUpIcon: require(`${allImages}Transfer-2.png`),
-
+  aspireIcon: require(`${allImages}AspireLogo.png`),
+  visaIcon: require(`${allImages}VisaLogo.png`),  
 };
