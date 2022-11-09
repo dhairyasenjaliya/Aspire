@@ -37,10 +37,9 @@ function DebitCardScreen({navigation}: {navigation: any}) {
           icon={Images.insightIcon}
           title={'Top-up account'}
           subTitle={'Deposit money to your account to use with card'}
-          isToggle
         />
         <OptionCompoment
-          icon={Images.indicatorIcon}
+          icon={Images.speedUpIcon}
           title={'Weekly spending limit'}
           subTitle={'You haven’t set any spending limit on card'}
           isToggle
@@ -55,13 +54,11 @@ function DebitCardScreen({navigation}: {navigation: any}) {
           icon={Images.cardIcon}
           title={'Get a new card'}
           subTitle={'This deactivates your current debit card'}
-          isToggle
         />
         <OptionCompoment
           icon={Images.transferIcon}
           title={'Deactivated cards'}
           subTitle={'Your previously deactivated cards'}
-          isToggle
         />
       </ScrollView>
     </SafeAreaView>
