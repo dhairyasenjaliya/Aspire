@@ -16,6 +16,18 @@ function DebitCardScreen({navigation}: {navigation: any}) {
           resizeMode={FastImage.resizeMode.contain}
         />
       </View>
+
+      <View style={styles.myBalanceContainer}>
+        <Text style={styles.myBalanceText}>Available balance</Text>
+        <View style={styles.amountContainer}>
+          <View style={styles.balancePlaceholder}>
+            <View>
+              <Text style={styles.dollarSymbole}>S$</Text>
+            </View>
+          </View>
+          <Text style={styles.amountStyle}>3,000</Text>
+        </View>
+      </View>
     </SafeAreaView>
   );
 }

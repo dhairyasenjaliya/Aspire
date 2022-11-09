@@ -23,4 +23,40 @@ export default StyleSheet.create({
     height: 25,
     width: 25,
   },
+  myBalanceContainer: {
+    marginTop: 20,
+    marginBottom: 10,
+    marginHorizontal: AppDimensions.horizontalSpace,
+    justifyContent: 'center',
+    alignContent: 'center',
+  },
+  myBalanceText: {
+    fontSize: FontSize.medium,
+    color: Colors.white,
+    fontFamily: Fonts.mediumAvenir,
+  },
+  balancePlaceholder: {
+    height: 25,
+    width: 40,
+    backgroundColor: Colors.brandGreen,
+    borderRadius: 4,
+    marginRight: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  dollarSymbole: {
+    fontSize: FontSize.medium,
+    color: Colors.white,
+    fontFamily: Fonts.boldAvenir,
+  },
+  amountStyle: {
+    fontSize: FontSize.headerSize,
+    color: Colors.white,
+    fontFamily: Fonts.boldAvenir,
+  },
+  amountContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginTop: 10,
+  },
 });
