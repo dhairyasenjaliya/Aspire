@@ -36,7 +36,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -55,5 +55,21 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AvenirNext-Bold.otf</string>
+		<string>AvenirNext-BoldItalic.otf</string>
+		<string>AvenirNext-DemiBold.otf</string>
+		<string>AvenirNext-DemiBoldItalic.otf</string>
+		<string>AvenirNext-Heavy.otf</string>
+		<string>AvenirNext-HeavyItalic.otf</string>
+		<string>AvenirNext-Italic.otf</string>
+		<string>AvenirNext-Medium.otf</string>
+		<string>AvenirNext-MediumItalic.otf</string>
+		<string>AvenirNext-Regular.otf</string>
+		<string>AvenirNext-UltraLight.otf</string>
+		<string>AvenirNext-UltraLightItalic.otf</string>
+		<string>Born.otf</string>
+	</array>
 </dict>
 </plist>

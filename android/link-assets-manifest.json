@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "root/assets/fonts/AvenirNext-Bold.otf",
+      "sha1": "c41d2c74171525d05093fb2a74ddb1f3c638b7e3"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-BoldItalic.otf",
+      "sha1": "c0a9e5ffc652bc55d2c12a9e8d6bfb2d2e6ed4b1"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-DemiBold.otf",
+      "sha1": "795345afaf6d48bcd0b1c8c4e35402743b926034"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-DemiBoldItalic.otf",
+      "sha1": "390db489f573777331ff36da1e0ab848ff37b7db"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-Heavy.otf",
+      "sha1": "d78f6425b0269cbd8679b072ae8ae91c10c72ba3"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-HeavyItalic.otf",
+      "sha1": "f2cf78fd3a48a4620b276ae636580f2c2edd4b92"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-Italic.otf",
+      "sha1": "aadeef269a6098b53aa9d42e6a6680ea8da88810"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-Medium.otf",
+      "sha1": "6e9caabdec5172bacc29f8a5028bd74944a4b9bd"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-MediumItalic.otf",
+      "sha1": "98d85ff20c29d9355362464a7f6c6865b78df572"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-Regular.otf",
+      "sha1": "5801bb86a64f75d83446929f8d721a9e1cd8c6ae"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-UltraLight.otf",
+      "sha1": "c87a34362e86863f7324331bd24a14a43dfa224f"
+    },
+    {
+      "path": "root/assets/fonts/AvenirNext-UltraLightItalic.otf",
+      "sha1": "e3a9bf284f0337c8d720d2cb90c17768a70f31a7"
+    },
+    {
+      "path": "root/assets/fonts/Born.otf",
+      "sha1": "a53888c23391b01c14dd48985a6456d5970cb210"
+    }
+  ]
+}

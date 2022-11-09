@@ -9,11 +9,24 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AspireTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AspireTests.m */; };
 		0C80B921A6F3F58F76C31292 /* libPods-Aspire.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-Aspire.a */; };
+		120C2AF93B994615ADFACEE0 /* AvenirNext-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E9BB011D12A5428E86952A67 /* AvenirNext-MediumItalic.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		365455768CE845DEB1BC5574 /* AvenirNext-DemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E49143C1A46978417E508 /* AvenirNext-DemiBoldItalic.otf */; };
+		3A81DBA607CD4E948B935BE6 /* AvenirNext-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 23A91ECF7F7849F5A7048F43 /* AvenirNext-Medium.otf */; };
+		4E53D54D0C0245A0825620FB /* AvenirNext-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0BE775ED4F88412F875779C6 /* AvenirNext-Italic.otf */; };
+		565BBBD8A70F4D36A981B083 /* AvenirNext-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2583A018E2C942DDAF1C15D0 /* AvenirNext-Heavy.otf */; };
+		682BC2870FF34788BDCA206C /* Born.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7647885E85C9432AB3C596C0 /* Born.otf */; };
+		6A6139FC7E39423BB76A63B4 /* AvenirNext-DemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 294D2BD677B940719924D7CC /* AvenirNext-DemiBold.otf */; };
+		705A3A3369BD41379C99DA19 /* AvenirNext-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7B714FCF8E9545F5AA0CBD11 /* AvenirNext-HeavyItalic.otf */; };
 		7699B88040F8A987B510C191 /* libPods-Aspire-AspireTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Aspire-AspireTests.a */; };
+		775BAEDBB4174C7DAF5FAE42 /* AvenirNext-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9F14EB639BDC4AE2BEBBA109 /* AvenirNext-Regular.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		84F70112C38B48B2A1819EBE /* AvenirNext-UltraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93EF640BD3BE4878B1825DB3 /* AvenirNext-UltraLightItalic.otf */; };
+		CFBB010B95F547FB9A0059D1 /* AvenirNext-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 789F7A22AE9B44FABD788EFA /* AvenirNext-UltraLight.otf */; };
+		DDD86584DB3944968A39C83E /* AvenirNext-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CD6B346B08B461B85683056 /* AvenirNext-BoldItalic.otf */; };
+		EAADF318409D43B3B8F4DEDE /* AvenirNext-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6C7DB7386DEE418FA8F5CB3A /* AvenirNext-Bold.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +43,7 @@
 		00E356EE1AD99517003FC87E /* AspireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AspireTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AspireTests.m; sourceTree = "<group>"; };
+		0BE775ED4F88412F875779C6 /* AvenirNext-Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Italic.otf"; path = "../root/assets/fonts/AvenirNext-Italic.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Aspire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aspire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Aspire/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Aspire/AppDelegate.mm; sourceTree = "<group>"; };
@@ -37,14 +51,26 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Aspire/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Aspire/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-Aspire-AspireTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aspire-AspireTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		23A91ECF7F7849F5A7048F43 /* AvenirNext-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Medium.otf"; path = "../root/assets/fonts/AvenirNext-Medium.otf"; sourceTree = "<group>"; };
+		2583A018E2C942DDAF1C15D0 /* AvenirNext-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Heavy.otf"; path = "../root/assets/fonts/AvenirNext-Heavy.otf"; sourceTree = "<group>"; };
+		294D2BD677B940719924D7CC /* AvenirNext-DemiBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-DemiBold.otf"; path = "../root/assets/fonts/AvenirNext-DemiBold.otf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-Aspire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspire.debug.xcconfig"; path = "Target Support Files/Pods-Aspire/Pods-Aspire.debug.xcconfig"; sourceTree = "<group>"; };
+		3C6E49143C1A46978417E508 /* AvenirNext-DemiBoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-DemiBoldItalic.otf"; path = "../root/assets/fonts/AvenirNext-DemiBoldItalic.otf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-Aspire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspire.release.xcconfig"; path = "Target Support Files/Pods-Aspire/Pods-Aspire.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-Aspire-AspireTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspire-AspireTests.debug.xcconfig"; path = "Target Support Files/Pods-Aspire-AspireTests/Pods-Aspire-AspireTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-Aspire.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aspire.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7DB7386DEE418FA8F5CB3A /* AvenirNext-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Bold.otf"; path = "../root/assets/fonts/AvenirNext-Bold.otf"; sourceTree = "<group>"; };
+		7647885E85C9432AB3C596C0 /* Born.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Born.otf; path = ../root/assets/fonts/Born.otf; sourceTree = "<group>"; };
+		789F7A22AE9B44FABD788EFA /* AvenirNext-UltraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-UltraLight.otf"; path = "../root/assets/fonts/AvenirNext-UltraLight.otf"; sourceTree = "<group>"; };
+		7B714FCF8E9545F5AA0CBD11 /* AvenirNext-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-HeavyItalic.otf"; path = "../root/assets/fonts/AvenirNext-HeavyItalic.otf"; sourceTree = "<group>"; };
+		7CD6B346B08B461B85683056 /* AvenirNext-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-BoldItalic.otf"; path = "../root/assets/fonts/AvenirNext-BoldItalic.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Aspire/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Aspire-AspireTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aspire-AspireTests.release.xcconfig"; path = "Target Support Files/Pods-Aspire-AspireTests/Pods-Aspire-AspireTests.release.xcconfig"; sourceTree = "<group>"; };
+		93EF640BD3BE4878B1825DB3 /* AvenirNext-UltraLightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-UltraLightItalic.otf"; path = "../root/assets/fonts/AvenirNext-UltraLightItalic.otf"; sourceTree = "<group>"; };
+		9F14EB639BDC4AE2BEBBA109 /* AvenirNext-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-Regular.otf"; path = "../root/assets/fonts/AvenirNext-Regular.otf"; sourceTree = "<group>"; };
 		C63E728D291A32FF00FD8E4C /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
 		C63E728F291A331200FD8E4C /* libReact-hermes.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-hermes.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9BB011D12A5428E86952A67 /* AvenirNext-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "AvenirNext-MediumItalic.otf"; path = "../root/assets/fonts/AvenirNext-MediumItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -126,6 +152,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				BC960925AA9F495EB08DF2EE /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -150,6 +177,27 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-Aspire-AspireTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC960925AA9F495EB08DF2EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6C7DB7386DEE418FA8F5CB3A /* AvenirNext-Bold.otf */,
+				7CD6B346B08B461B85683056 /* AvenirNext-BoldItalic.otf */,
+				294D2BD677B940719924D7CC /* AvenirNext-DemiBold.otf */,
+				3C6E49143C1A46978417E508 /* AvenirNext-DemiBoldItalic.otf */,
+				2583A018E2C942DDAF1C15D0 /* AvenirNext-Heavy.otf */,
+				7B714FCF8E9545F5AA0CBD11 /* AvenirNext-HeavyItalic.otf */,
+				0BE775ED4F88412F875779C6 /* AvenirNext-Italic.otf */,
+				23A91ECF7F7849F5A7048F43 /* AvenirNext-Medium.otf */,
+				E9BB011D12A5428E86952A67 /* AvenirNext-MediumItalic.otf */,
+				9F14EB639BDC4AE2BEBBA109 /* AvenirNext-Regular.otf */,
+				789F7A22AE9B44FABD788EFA /* AvenirNext-UltraLight.otf */,
+				93EF640BD3BE4878B1825DB3 /* AvenirNext-UltraLightItalic.otf */,
+				7647885E85C9432AB3C596C0 /* Born.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +296,19 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				EAADF318409D43B3B8F4DEDE /* AvenirNext-Bold.otf in Resources */,
+				DDD86584DB3944968A39C83E /* AvenirNext-BoldItalic.otf in Resources */,
+				6A6139FC7E39423BB76A63B4 /* AvenirNext-DemiBold.otf in Resources */,
+				365455768CE845DEB1BC5574 /* AvenirNext-DemiBoldItalic.otf in Resources */,
+				565BBBD8A70F4D36A981B083 /* AvenirNext-Heavy.otf in Resources */,
+				705A3A3369BD41379C99DA19 /* AvenirNext-HeavyItalic.otf in Resources */,
+				4E53D54D0C0245A0825620FB /* AvenirNext-Italic.otf in Resources */,
+				3A81DBA607CD4E948B935BE6 /* AvenirNext-Medium.otf in Resources */,
+				120C2AF93B994615ADFACEE0 /* AvenirNext-MediumItalic.otf in Resources */,
+				775BAEDBB4174C7DAF5FAE42 /* AvenirNext-Regular.otf in Resources */,
+				CFBB010B95F547FB9A0059D1 /* AvenirNext-UltraLight.otf in Resources */,
+				84F70112C38B48B2A1819EBE /* AvenirNext-UltraLightItalic.otf in Resources */,
+				682BC2870FF34788BDCA206C /* Born.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
