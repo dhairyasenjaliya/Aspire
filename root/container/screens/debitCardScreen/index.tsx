@@ -1,14 +1,17 @@
 import React from 'react';
-import {Button, View, Text} from 'react-native';
+import {View, Text, Image} from 'react-native';
+import FastImage from 'react-native-fast-image';
+import {Images} from '../../../assets/Images';
 import styles from './styles';
 
 function DebitCardScreen({navigation}: {navigation: any}) {
   return (
     <View style={styles.container}>
       <Text>Home Screen</Text>
-      <Button
-        title="SpendLimiScreen"
-        onPress={() => navigation.navigate('SpendLimitScreen')}
+      <FastImage
+        source={Images.companyLogo}
+        style={{height: 20, width: 20}}
+        resizeMode={FastImage.resizeMode.contain}
       />
     </View>
   );

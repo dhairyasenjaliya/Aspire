@@ -11,7 +11,10 @@ const Stack = createNativeStackNavigator();
 function Navigator() {
   return (
     <NavigationContainer>
-      <Stack.Navigator>
+      <Stack.Navigator
+        screenOptions={{
+          headerShown: false,
+        }}>
         <Stack.Screen name="DebitCardScreen" component={DebitCardScreen} />
         <Stack.Screen name="SpendLimitScreen" component={SpendLimitScreen} />
       </Stack.Navigator>
